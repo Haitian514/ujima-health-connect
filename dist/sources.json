@@ -1,0 +1,44 @@
+{
+  "directory": {
+    "url": "https://ujimahealthconnect.com/",
+    "importedAt": "2026-11-13",
+    "permission": "User confirmed ownership or permission to reuse directory content and photos.",
+    "snapshot": "787 public listing pages and category membership pages."
+  },
+  "photos": {
+    "source": "Photo URL published on each original provider listing.",
+    "storage": "Linked from the original source; no generated substitute headshots."
+  },
+  "geography": {
+    "url": "https://www.geonames.org/",
+    "download": "https://download.geonames.org/export/zip/",
+    "license": "CC BY 4.0",
+    "note": "NC ZIP and city centers are approximate."
+  },
+  "geocoding": {
+    "url": "https://geocoding.geo.census.gov/geocoder/",
+    "benchmark": "Public_AR_Current",
+    "date": "2026-11-13",
+    "matchedAddresses": 500,
+    "note": "Address-range interpolation does not verify office occupancy or building entrances."
+  },
+  "map": {
+    "url": "https://www.openstreetmap.org/copyright",
+    "tiles": "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+    "usage": "Viewport-only requests with visible attribution. No tile prefetch or offline map download."
+  },
+  "libraries": [
+    {
+      "name": "Leaflet",
+      "version": "1.9.4",
+      "license": "BSD-2-Clause",
+      "source": "https://leafletjs.com/"
+    },
+    {
+      "name": "Leaflet.markercluster",
+      "version": "1.5.3",
+      "license": "MIT",
+      "source": "https://github.com/Leaflet/Leaflet.markercluster"
+    }
+  ]
+}
