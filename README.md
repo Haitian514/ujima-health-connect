@@ -1,5 +1,7 @@
 # MedConnect — real North Carolina directory
 
+Live website: [medconnectnc.vercel.app](https://medconnectnc.vercel.app). The public app uses Vercel's free Hobby hosting.
+
 [![App checks](https://github.com/jdbartlett929/MedConnect/actions/workflows/checks.yml/badge.svg)](https://github.com/jdbartlett929/MedConnect/actions/workflows/checks.yml)
 
 MedConnect is a phone-first installable web app that contains a dated import of all 787 public provider listings from [Ujima Health Connect](https://ujimahealthconnect.com/), with reuse permission confirmed by the project owner. It preserves real names, credentials, practices, published photos, addresses, contact links, specialty fields, and source URLs. All 16 category memberships are included.
@@ -56,6 +58,10 @@ The import is dated 2026-11-13. This is not an automatic live feed. Every record
 The source directory data is public. Nicknames, filters, saved listings, and calendar notes are stored only in this browser under medconnect-directory-v1 (with automatic migration from the earlier Ujima app key). They do not sync across devices. Earlier prototype data is left untouched in its prior storage keys. No medical record system or patient database is created. External map tiles and source photographs are requested only as displayed. The service worker never prefetches or caches map tiles.
 
 ## Run and verify
+
+The Vercel configuration serves the existing `dist/` directory without a build or dependency installation. To publish an update from the linked project:
+
+    vercel deploy --prod --project medconnect --scope jdbartlett929s-projects
 
 Serve dist through a static HTTP server:
 
