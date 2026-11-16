@@ -1,4 +1,4 @@
-# Contributing to Ujima Health Connect
+# Contributing to MedConnect
 
 Contributions are welcome through GitHub issues and pull requests. Anyone can fork this public repository; the maintainer reviews changes before merging them.
 

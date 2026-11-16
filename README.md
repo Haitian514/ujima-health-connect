@@ -1,16 +1,16 @@
-# Ujima Health Connect — real North Carolina directory
+# MedConnect — real North Carolina directory
 
-[![App checks](https://github.com/jdbartlett929/ujima-health-connect/actions/workflows/checks.yml/badge.svg)](https://github.com/jdbartlett929/ujima-health-connect/actions/workflows/checks.yml)
+[![App checks](https://github.com/jdbartlett929/MedConnect/actions/workflows/checks.yml/badge.svg)](https://github.com/jdbartlett929/MedConnect/actions/workflows/checks.yml)
 
-This phone-first installable web app contains a dated import of all 787 public provider listings from [Ujima Health Connect](https://ujimahealthconnect.com/), with reuse permission confirmed by the project owner. It preserves real names, credentials, practices, published photos, addresses, contact links, specialty fields, and source URLs. All 16 category memberships are included.
+MedConnect is a phone-first installable web app that contains a dated import of all 787 public provider listings from [Ujima Health Connect](https://ujimahealthconnect.com/), with reuse permission confirmed by the project owner. It preserves real names, credentials, practices, published photos, addresses, contact links, specialty fields, and source URLs. All 16 category memberships are included.
 
 ## Collaborate
 
 Fork this repository, create a branch, and open a pull request. Read [CONTRIBUTING.md](CONTRIBUTING.md) for the workflow, data conventions, and review checks. Issues are open for bugs and feature suggestions.
 
 ```sh
-git clone https://github.com/jdbartlett929/ujima-health-connect.git
-cd ujima-health-connect
+git clone https://github.com/jdbartlett929/MedConnect.git
+cd MedConnect
 python -m http.server 4173 --directory dist
 ```
 
@@ -53,7 +53,7 @@ The import is dated 2026-11-13. This is not an automatic live feed. Every record
 
 ## Privacy and storage
 
-The source directory data is public. Nicknames, filters, saved listings, and calendar notes are stored only in this browser under ujima-real-directory-v1. They do not sync across devices. Earlier prototype data is left untouched in its prior storage keys. No medical record system or patient database is created. External map tiles and source photographs are requested only as displayed. The service worker never prefetches or caches map tiles.
+The source directory data is public. Nicknames, filters, saved listings, and calendar notes are stored only in this browser under medconnect-directory-v1 (with automatic migration from the earlier Ujima app key). They do not sync across devices. Earlier prototype data is left untouched in its prior storage keys. No medical record system or patient database is created. External map tiles and source photographs are requested only as displayed. The service worker never prefetches or caches map tiles.
 
 ## Run and verify
 
