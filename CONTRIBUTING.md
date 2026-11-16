@@ -23,7 +23,7 @@ The editable application source is in `dist/`; it is intentionally checked in an
 
 ## Working with directory data
 
-The directory is a snapshot imported on 2026-11-13. When correcting a listing, cite its original public Ujima profile or another authoritative provider source. Update the matching entry in both `dist/directory.json` and `dist/directory.js`, and keep their contents consistent.
+The directory is a snapshot imported on 2026-11-13. When correcting a listing, cite its original public directory profile or another authoritative provider source. Update the matching entry in both `dist/directory.json` and `dist/directory.js`, and keep their contents consistent.
 
 Preserve the distinction between street-level matches, approximate area locations, and listings without coordinates. A Census match is an address-range estimate, not verification that a provider currently occupies an office. Do not invent insurance acceptance, languages, provider identities, photos, appointment slots, or booking confirmations.
 

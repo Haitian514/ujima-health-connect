@@ -1,6 +1,6 @@
 # Data, images and third-party notices
 
-- Provider directory records, branding and published image links originate from [Ujima Health Connect](https://ujimahealthconnect.com/). The project owner confirmed permission for their use in this app. Making this repository public does not grant a separate license to redistribute provider photographs, branding or directory content elsewhere.
+- Provider directory records, branding and published image links originate from [the original provider directory](https://ujimahealthconnect.com/). The project owner confirmed permission for their use in this app. Making this repository public does not grant a separate license to redistribute provider photographs, branding or directory content elsewhere.
 - The directory snapshot is dated **2026-11-13**. Original profile links are retained for provenance and corrections. Photos are requested from their original published URLs; they are not synthesized portraits.
 - City and ZIP data comes from [GeoNames](https://www.geonames.org/) under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). North Carolina records are used to resolve city and ZIP searches; these coordinates are approximate.
 - Address matching uses the [US Census Bureau geocoder](https://geocoding.geo.census.gov/geocoder/). Results are address-range estimates and do not verify current occupancy.
