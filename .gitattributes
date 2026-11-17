@@ -1,0 +1,5 @@
+# Keep exported presentation documents and media byte-for-byte intact.
+docs/presentation/*.pdf binary
+docs/presentation/*.pptx binary
+docs/presentation/*.mp4 binary
+docs/presentation/*.jpg binary
