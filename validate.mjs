@@ -35,7 +35,7 @@ assert.equal(run('RECORDS.filter(p=>p.coordinates).every(p=>p.coordinates[0]>=33
 assert.equal(run("esc('<img src=x onerror=alert(1)>')").includes('<'),false,'Escape user / imported content');
 const ics=run("calendarText({id:'test',date:'2026-11-14',time:'13:30',providerName:'Office, Name',location:'Street; Suite',note:'Line one\\nLine two'})");assert.ok(ics.includes('DTSTART:20261114T133000'));assert.ok(ics.includes('Office\\, Name'));assert.ok(ics.includes('Street\\; Suite'));assert.ok(ics.includes('Line one\\nLine two'));
 const exported=JSON.parse(readFileSync('dist/directory.json','utf8'));assert.equal(exported.records.length,787);assert.equal(exported.categories.length,16);
-const manifest=JSON.parse(readFileSync('dist/manifest.webmanifest'));assert.equal(manifest.name,'Ujima Health Connect');assert.equal(manifest.display,'standalone');
+const manifest=JSON.parse(readFileSync('dist/manifest.webmanifest'));assert.equal(manifest.name,'MedConnect');assert.equal(manifest.display,'standalone');
 for(const item of manifest.icons){const image=readFileSync('dist/'+item.src),[width,height]=item.sizes.split('x').map(Number);assert.equal(image.readUInt32BE(16),width);assert.equal(image.readUInt32BE(20),height);}
 
 const handlers={},cached=[],offlineResponse={marker:'cached-directory-shell'};

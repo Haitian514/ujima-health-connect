@@ -6,35 +6,38 @@
   <meta name="theme-color" content="#103f3b">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <meta name="apple-mobile-web-app-title" content="Ujima">
-  <meta name="description" content="Ujima Health Connect — care, community, and a helping hand, closer to home. A North Carolina provider directory with real listings, contact links, and street maps.">
-  <title>Ujima Health Connect</title>
+  <meta name="apple-mobile-web-app-title" content="MedConnect">
+  <meta name="description" content="MedConnect — care, community, and a helping hand, closer to home. A North Carolina provider directory with real listings, contact links, and street maps.">
+  <title>MedConnect</title>
   <link rel="manifest" href="manifest.webmanifest" crossorigin="use-credentials">
   <link rel="icon" type="image/svg+xml" href="brand.svg">
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
   <link rel="stylesheet" href="vendor/leaflet.css">
   <link rel="stylesheet" href="vendor/MarkerCluster.css">
-  <link rel="stylesheet" href="styles.css?v=real3">
-  <script defer src="data.js?v=real3"></script>
-  <script defer src="directory.js?v=real3"></script>
-  <script defer src="geography.js?v=real3"></script>
-  <script defer src="vendor/leaflet.js"></script>
-  <script defer src="vendor/leaflet.markercluster.js"></script>
-  <script defer src="app.js?v=real3"></script>
+<link rel="stylesheet" href="styles.css?v=medconnect2">
+
+<script defer src="data.js?v=medconnect2"></script>
+<script defer src="directory.js?v=medconnect2"></script>
+<script defer src="geography.js?v=medconnect2"></script>
+<script defer src="vendor/leaflet.js"></script>
+<script defer src="vendor/leaflet.markercluster.js"></script>
+<script defer src="vendor/supabase.js?v=real4"></script>
+<script defer src="supabase-client.js?v=real4"></script>
+<script defer src="app.js?v=medconnect2"></script>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
   <aside class="sidebar">
-    <a href="#home" class="brand" aria-label="Ujima Health Connect home"><img src="brand.svg" alt="" width="40" height="40"><span>ujima<span class="brand-sub">HEALTH CONNECT</span></span></a>
+    <a href="#home" class="brand" aria-label="MedConnect home"><img src="brand.svg" alt="" width="40" height="40"><span>MedConnect<span class="brand-sub">CARE &amp; COMMUNITY</span></span></a>
     <div class="nav-caption">YOUR EVERYDAY SUPPORT</div>
     <nav id="desktop-nav" aria-label="Main navigation"></nav>
     <div class="sidebar-card"><span class="small-orbit" data-icon="heart"></span><h3>Your care. Your choice.</h3><p>Find providers across North Carolina and connect directly with their offices.</p><button class="text-btn" data-action="care">Explore the directory <span>↗</span></button></div>
-    <button class="install-side" data-action="install"><span data-icon="download"></span><span>Take Ujima with you<small>Add to your phone</small></span><span>↗</span></button>
+    <button class="install-side" data-action="install"><span data-icon="download"></span><span>Take MedConnect with you<small>Add to your phone</small></span><span>↗</span></button>
     <button class="demo-label" data-action="about"><i></i> Directory details <span data-icon="info"></span></button>
   </aside>
   <div class="app-shell">
     <header class="topbar">
-      <a href="#home" class="brand mobile-brand" aria-label="Ujima Health Connect home"><img src="brand.svg" width="34" height="34" alt=""><span>ujima<span class="brand-sub">HEALTH CONNECT</span></span></a>
+      <a href="#home" class="brand mobile-brand" aria-label="MedConnect home"><img src="brand.svg" width="34" height="34" alt=""><span>MedConnect<span class="brand-sub">CARE &amp; COMMUNITY</span></span></a>
       <div class="desktop-tagline">GOOD CARE STARTS WITH CONNECTION.</div>
       <div class="header-actions"><button class="location-pill" data-action="location"><span data-icon="pin"></span><span id="location-name">North Carolina</span><span class="desktop-only">· provider directory</span><span data-icon="chevron"></span></button><button class="avatar-button" data-action="profile" aria-label="Open your profile"><span data-icon="user"></span></button></div>
     </header>
