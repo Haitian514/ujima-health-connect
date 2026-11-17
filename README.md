@@ -18,6 +18,10 @@ python -m http.server 4173 --directory dist
 
 Open <http://localhost:4173>. On Windows, `py` can be used instead of `python`. To run checks, install Node.js 22 or newer and run `npm test`; no dependency installation, API keys, or build step is required.
 
+## Symposium presentation
+
+The revised [12-slide PowerPoint, exact prompt record, slide preview, and demo video](docs/presentation/README.md) are available in `docs/presentation/`. The PowerPoint includes presenter notes, the live prototype link, and an embedded showcase video.
+
 ## Preview
 
 | Phone home | Real street map |
