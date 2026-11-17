@@ -5,6 +5,7 @@
 *.pem
 *.key
 .openai/
+.vercel/
 
 # Dependencies, local caches, editor files and generated exports
 node_modules/

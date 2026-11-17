@@ -1,8 +1,8 @@
 {
-  "name": "ujima-health-connect",
+  "name": "medconnect",
   "version": "1.0.0",
   "private": true,
-  "description": "Phone-first North Carolina provider directory and personal care organizer",
+  "description": "MedConnect: a North Carolina provider directory and personal care organizer",
   "type": "module",
   "engines": {
     "node": ">=22"
